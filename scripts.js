@@ -86,6 +86,6 @@ class ToDoClass {
 }
 
 let toDo;
-window.addEventListener('load', () => { // this will add an event litener to a browers. when browser will finish loading, load event is fired, which fires the function that initialize the ToDoClass and assigns is to toDo
+window.addEventListener('load', () => { 
     toDo = new ToDoClass();
 })
